@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.hpe.service.model.Actor">
+		<field name="uuid" type="String" />
+		<field name="actorId" type="long" />
+		<field name="actorName" type="String" />
+		<field name="age" type="int" />
+		<field name="languages" type="String" />
+		<field name="movies" type="String" />
+		<field name="criticRating" type="int" />
+	</model>
+</model-hints>

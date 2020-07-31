@@ -1,0 +1,10 @@
+Bundle-Name: hpe-service-api
+Bundle-SymbolicName: com.hpe.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.hpe.service.exception,\
+	com.hpe.service.model,\
+	com.hpe.service.service,\
+	com.hpe.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../hpe-service-service/service.xml

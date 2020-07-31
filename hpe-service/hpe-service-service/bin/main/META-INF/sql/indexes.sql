@@ -1,0 +1,1 @@
+create index IX_CBC6353B on HPE_Actor (uuid_[$COLUMN_LENGTH:75$]);
